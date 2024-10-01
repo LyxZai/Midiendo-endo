@@ -1,0 +1,34 @@
+body{
+	font-family:  'Montserrat', sans-serif; /* Cambié la fuente a 'Roboto' */
+	background: url(fondo.jpg);   
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-color: #f7f0a3;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: white;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	font-family: 'Roboto', sans-serif; /* Asegurándote de que la fuente también se aplique al menú */
+}
+
+.menu li a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	display: block;
+	font-family: 'Roboto', sans-serif; /* También aplicando la fuente en los enlaces */
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
